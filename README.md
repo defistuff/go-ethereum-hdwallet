@@ -7,24 +7,24 @@
 </h3>
 
 # go-ethereum-hdwallet
-
+Forked from https://github.com/miguelmota/go-ethereum-hdwallet
 > Ethereum HD Wallet derivations from [mnemonic] seed in Go (golang). Implements the [go-ethereum](https://github.com/ethereum/go-ethereum) [`accounts.Wallet`](https://github.com/ethereum/go-ethereum/blob/master/accounts/accounts.go) interface.
 
-[![License](http://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/miguelmota/go-ethereum-hdwallet/master/LICENSE)
-[![Build Status](https://travis-ci.org/miguelmota/go-ethereum-hdwallet.svg?branch=master)](https://travis-ci.org/miguelmota/go-ethereum-hdwallet)
-[![Go Report Card](https://goreportcard.com/badge/github.com/miguelmota/go-ethereum-hdwallet?)](https://goreportcard.com/report/github.com/miguelmota/go-ethereum-hdwallet)
-[![GoDoc](https://godoc.org/github.com/miguelmota/go-ethereum-hdwallet?status.svg)](https://godoc.org/github.com/miguelmota/go-ethereum-hdwallet)
+[![License](http://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/defistuff/go-ethereum-hdwallet/master/LICENSE)
+[![Build Status](https://travis-ci.org/defistuff/go-ethereum-hdwallet.svg?branch=master)](https://travis-ci.org/defistuff/go-ethereum-hdwallet)
+[![Go Report Card](https://goreportcard.com/badge/github.com/defistuff/go-ethereum-hdwallet?)](https://goreportcard.com/report/github.com/defistuff/go-ethereum-hdwallet)
+[![GoDoc](https://godoc.org/github.com/defistuff/go-ethereum-hdwallet?status.svg)](https://godoc.org/github.com/defistuff/go-ethereum-hdwallet)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 
 ## Install
 
 ```bash
-go get -u github.com/miguelmota/go-ethereum-hdwallet
+go get -u github.com/defistuff/go-ethereum-hdwallet
 ```
 
 ## Documenation
 
-[https://godoc.org/github.com/miguelmota/go-ethereum-hdwallet](https://godoc.org/github.com/miguelmota/go-ethereum-hdwallet)
+[https://godoc.org/github.com/defistuff/go-ethereum-hdwallet](https://godoc.org/github.com/defistuff/go-ethereum-hdwallet)
 
 ## Getting started
 
@@ -35,7 +35,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/miguelmota/go-ethereum-hdwallet"
+	"github.com/defistuff/go-ethereum-hdwallet"
 )
 
 func main() {
@@ -75,7 +75,7 @@ import (
 	"github.com/davecgh/go-spew/spew"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/miguelmota/go-ethereum-hdwallet"
+	"github.com/defistuff/go-ethereum-hdwallet"
 )
 
 func main() {
